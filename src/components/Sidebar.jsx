@@ -52,7 +52,7 @@ function Sidebar(props) {
                 {item.links.map((link, index) => (
                   <NavLink
                     to={link.name}
-                    key={link.index}
+                    key={index}
                     onClick={handleCloseSidebar}
                     className={({ isActive }) =>
                       isActive ? activeLink : normalLink

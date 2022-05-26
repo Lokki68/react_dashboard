@@ -1,7 +1,7 @@
 import React from "react";
 
 function Notification(props) {
-  return <div></div>;
+  return <div>Notification</div>;
 }
 
 export default Notification;

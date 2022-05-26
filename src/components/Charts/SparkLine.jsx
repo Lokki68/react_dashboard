@@ -6,6 +6,7 @@ import {
 } from "@syncfusion/ej2-react-charts";
 
 function SparkLine({ id, height, width, color, data, type, currentColor }) {
+  //todo: check problem => pas d'affichage
   return (
     <SparklineComponent
       id={id}
